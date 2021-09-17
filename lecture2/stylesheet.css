@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    /* 10vh: 10% of viewheight i.e. relative size */
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+
+    /*fixed: same place even if you scroll*/
+    /*absolute: staying in the same spot, 
+    scroll it but at the same point--disappear!
+    another html can be on top of it*/
+    /*static: default, giving each other room one after the other*/
+    /*relative: put elem on top of each other*/
+    /*position: fixed;*/
+}
+
+p{
+    color: blue;
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+/*Classes can be shared among elements*/
+.class1{
+    color: coral;
+
+}
+
+.class2{
+
+}
+
+.class3{
+
+}
+
+.class4{
+    font-size: 60px;
+}
+
+/*Group selectors*/
+
+
+/*Ids should be used only once; not shared among tags*/
+/*id > class > div > universal; specific takes priority over general*/
+/*same priority --> later one applied*/
+#id1{
+    color: darkgreen;
+}
+
+#id2{
+
+}
+
+#id3{
+
+}
+
+.parent{
+    width: 30px;
+    height: 30px;
+    color: darkblue;
+    position: relative;
+    /*left edge is 50px > move to the right*/
+    left: 50px;
+}
+
+.child{
+    width: 10px;
+    height: 10px;
+    color: white;
+    position: absolute;
+}
+
+/*vw, vh-->will respond to the size of the browser*/
+/*color
+1. rgb
+2. rgba (red, blue, green, opacity)
+3. hex
+*/
